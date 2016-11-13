@@ -22,7 +22,7 @@ else if(strlen($fname)>=3)
 }
 else if(strlen($lname)>=3)
 {
-	$query="SELECT * from all_names where lname like '%$lname%' ";
+	$query="SELECT * from all_names where lname like '%$lname%' limit 5 ";
 }
 
 //echo $query.PHP_EOL;
